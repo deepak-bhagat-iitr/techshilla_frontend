@@ -12,7 +12,7 @@ function LoginComponent() {
 
     useEffect(() => {
         const token = localStorage.getItem('token');
-        axios.get("http://localhost:5000/user", {
+        axios.get("https://techshilla-backend.onrender.com/user", {
             headers: {
                 Authorization: token,
             }
@@ -27,7 +27,7 @@ function LoginComponent() {
 
     useEffect(() => {
         // Fetch users and filter based on email
-        axios.get("http://localhost:5000/users")
+        axios.get("https://techshilla-backend.onrender.com/users")
             .then(res => {
                 const filteredUsers = res.data.filter(item => item.email === email);
                 setHelper(filteredUsers.length > 0 ? filteredUsers[0] : null);
@@ -40,7 +40,7 @@ function LoginComponent() {
         e.preventDefault();
         localStorage.setItem('helper', JSON.stringify(helper));
 
-        axios.post("http://localhost:5000/login", { email, password })
+        axios.post("https://techshilla-backend.onrender.com/login", { email, password })
             .then(user => {
                 console.log(user);
                 localStorage.setItem('token', user.data.token);

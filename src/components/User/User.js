@@ -23,7 +23,7 @@ function App() {
       setComponent(<Dashboard dashboard={JSON.parse(userDataFromLocalStorage)} />);
     } else {
       // User data doesn't exist in local storage, fetch it from the server
-      axios.get("http://localhost:5000/users")
+      axios.get("https://techshilla-backend.onrender.com/users")
         .then((res) => {
           // Filter the user data based on the current user's name
           const filteredUser = res.data.filter(item => item.name === location.state.name);

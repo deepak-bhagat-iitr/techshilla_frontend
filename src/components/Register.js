@@ -23,7 +23,7 @@ function Register() {
     const handleSubmit = (e) => {
         e.preventDefault();
         // console.log(formData);
-        axios.post("http://localhost:5000/register", formData).then(user => {
+        axios.post("https://techshilla-backend.onrender.com/register", formData).then(user => {
             console.log(user);
 
             navigate('/login')
@@ -33,7 +33,7 @@ function Register() {
     };
     useEffect(() => {
         const token = localStorage.getItem('token');
-        axios.get("http://localhost:5000/user", {
+        axios.get("https://techshilla-backend.onrender.com/user", {
             headers: {
                 Authorization: token,
             }

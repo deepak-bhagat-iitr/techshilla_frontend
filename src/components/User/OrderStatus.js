@@ -6,7 +6,7 @@ const OrderStatus = () => {
     const [orders, setOrders] = useState([]);
     const username = localStorage.getItem('username');
     useEffect(() => {
-        axios.get(`http://localhost:5000/medicines/${username}`)
+        axios.get(`https://techshilla-backend.onrender.com/medicines/${username}`)
             .then(res => {
                 const fetchedOrders = res.data.map(item => ({
                     name: item.name,

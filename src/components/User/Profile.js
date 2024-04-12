@@ -30,7 +30,7 @@ const Profile = () => {
   // Function to handle saving changes
   const handleSave = (field) => {
     // Step 3: Make API call to update profile data
-    axios.put(`http://localhost:5000/user/${name}`, {
+    axios.put(`https://techshilla-backend.onrender.com/user/${name}`, {
       name: editedName,
       email: editedEmail,
       telephone: editedPhone

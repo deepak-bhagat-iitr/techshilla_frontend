@@ -20,7 +20,7 @@ const ContactForm = () => {
     e.preventDefault();
 
     try {
-      axios.post("http://localhost:5000/user/contact", formData).
+      axios.post("https://techshilla-backend.onrender.com/user/contact", formData).
         then(user => console.log(user))
 
     } catch (err) {

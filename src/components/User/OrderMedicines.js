@@ -13,7 +13,7 @@ function MedicineCard({ name, description, rating, id, src }) {
       name: name,
       image: src
     };
-    axios.post(`http://localhost:5000/medicines/${username}`, medicineData) // Add username to the API URL
+    axios.post(`https://techshilla-backend.onrender.com/medicines/${username}`, medicineData) // Add username to the API URL
       .then((res) => {
         console.log('Medicine ordered successfully:', res.data);
       })
