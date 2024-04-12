@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+header {
+  background-color: white;
+  /* Dark background color */
+  color: black ;
+  /* Light text color */
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  /* Add some padding for better spacing */
+}
+
+.nav_container {
+  width: 90%;
+  /* Center the content */
+  margin: 0 auto;
+  /* Center the content */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* Distribute items horizontally */
+  align-items: center;
+  /* Center items vertically */
+}
+
+.logo img {
+  width: 100px;
+  /* Adjust logo size as needed */
+}
+
+.navlinks {
+  list-style: none;
+  /* Remove bullet points */
+  display: flex;
+}
+
+.navlinks li {
+  margin-right: 20px;
+  /* Add some spacing between nav items */
+}
+
+.navlinks a {
+  text-decoration: none;
+  /* Remove underline from links */
+  color: black;
+  /* Light text color */
+}
+
+.ctabtn {
+  text-decoration: none;
+  background-color: #f1356d;
+  /* Pink background color */
+  color: #fff;
+  /* Light text color */
+  padding: 10px 20px;
+  /* Add some padding */
+  border-radius: 5px;
+  margin: 0 5px 0 0;
+  /* Add rounded corners */
+}
+
+.ctabtn:hover {
+  background-color: #d32f52;
+  /* Darker pink on hover */
+}
+
+  h1{
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .medicine-card {
+    width: 300px; /* Adjust width as needed */
+    margin: 20px; /* Adjust margin as needed */
+    text-align: center;
+   
+  }
+  
+  
+  .medicine-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .medicine-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    display: block;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  p {
+    margin: 0 0 10px;
+    color: #666;
+  }
+  
+  .rating {
+    color: #ffd700;
+    font-size: 18px;
+  }
+  
+  .add-to-cart-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #45a049;
+  }
+  

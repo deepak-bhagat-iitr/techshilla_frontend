@@ -1,0 +1,166 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    /* font-family: Arial, sans-serif; */
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header Styles */
+  .header_container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .logo img {
+    height: 40px;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  nav ul li a:hover {
+    color: #ffc107;
+  }
+  .ctabtn {
+    text-decoration: none;
+    background-color: #f1356d;
+    /* Pink background color */
+    color: #fff;
+    /* Light text color */
+    padding: 10px 20px;
+    /* Add some padding */
+    border-radius: 5px;
+    margin: 0 5px 0 0;
+    /* Add rounded corners */
+  }
+  
+  .ctabtn:hover {
+    background-color: #d32f52;
+    /* Darker pink on hover */
+  }
+  
+  .hero {
+    background-color: #f5f5f5; /* Light background */
+    color: #333; /* Dark text */
+    padding: 50px; /* Adjust padding as needed */
+    text-align: center; /* Center the content */
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem; /* Adjust font size as needed */
+    margin-bottom: 15px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem; /* Adjust font size as needed */
+    margin-bottom: 10px;
+  }
+  
+  /* Optional styles for image */
+  .hero img {
+    width: 100%; /* Adjust image width as needed */
+    margin-bottom: 20px;
+  }
+  .focus {
+    background-color: #fff; /* Light background */
+    color: #333; /* Dark text */
+    padding: 50px;
+    margin-top: 50px; /* Adjust margin as needed */
+  }
+  
+  .focus h2 {
+    font-size: 1.8rem; /* Adjust font size as needed */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .focus p {
+    font-size: 1.2rem; /* Adjust font size as needed */
+    line-height: 1.5; /* Adjust line-height for better readability */
+    margin-bottom: 15px;
+  }
+  
+  /* Optional styles for quote (if used) */
+  .focus p:last-child {
+    margin-top: 20px;
+    font-style: italic;
+    text-align: right; /* Align quote to the right */
+    font-weight: bold; /* Make quote text bolder */
+  }
+  
+/* Footer Section Styles */
+
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+ 
+  
+  .footerLinks ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footerLinks ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .footerLinks ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footerSocial a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .bottomBar {
+    background-color: #222;
+    padding: 10px 0;
+  }
+  
+  .bottomBar p {
+    margin: 0;
+    text-align: center;
+  }

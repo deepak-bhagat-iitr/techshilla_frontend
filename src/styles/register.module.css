@@ -1,0 +1,72 @@
+
+.register {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  align-items: center;
+  height: 100vh;
+}
+
+.register_container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register_container input[type="email"],
+.register_container input[type="password"],
+.register_container input[type="text"],.register_container input[type="tel"],
+.register_container input[type="submit"] {
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.register-link {
+  text-align: center;
+}
+
+.register-link p {
+  font-size: 14px;
+  color: black;
+}
+
+.register-link a {
+  color: #4caf50;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.register-link a:hover {
+  color: #45a049;
+}
+

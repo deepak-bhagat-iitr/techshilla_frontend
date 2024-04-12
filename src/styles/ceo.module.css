@@ -1,0 +1,192 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header Styles */
+  .header_container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .logo img {
+    height: 40px;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  nav ul li a:hover {
+    color: #ffc107;
+  }
+  .ctabtn {
+    text-decoration: none;
+    background-color: #f1356d;
+    /* Pink background color */
+    color: #fff;
+    /* Light text color */
+    padding: 10px 20px;
+    /* Add some padding */
+    border-radius: 5px;
+    margin: 0 5px 0 0;
+    /* Add rounded corners */
+  }
+  
+  .ctabtn:hover {
+    background-color: #d32f52;
+    /* Darker pink on hover */
+  }
+  /* Hero Section Styles */
+  .hero {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #6c757d;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  .testimonials {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+  }
+  
+  .testimonials .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  
+  .testimonial {
+    margin-bottom: 50px;
+  }
+  
+  .testimonial img {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p {
+    font-size: 18px;
+    color: #6c757d; /* Change the text color as needed */
+    margin-bottom: 20px;
+  }
+  
+  .testimonial h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial span {
+    font-style: italic;
+    color: #999; /* Change the text color as needed */
+  }
+
+
+/* Footer Section Styles */
+/* styles.css (or your preferred CSS file) */
+
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+ 
+  
+  .footerLinks ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footerLinks ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .footerLinks ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footerSocial a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .bottomBar {
+    background-color: #222;
+    padding: 10px 0;
+  }
+  
+  .bottomBar p {
+    margin: 0;
+    text-align: center;
+  }
